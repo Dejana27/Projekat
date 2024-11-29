@@ -1,0 +1,18 @@
+package sredime
+
+import grails.testing.web.controllers.ControllerUnitTest
+import spock.lang.Specification
+
+class GradControllerSpec extends Specification implements ControllerUnitTest<GradController> {
+
+    def setup() {
+    }
+
+    def cleanup() {
+    }
+
+    void "test something"() {
+        expect:"fix me"
+            true == false
+    }
+}

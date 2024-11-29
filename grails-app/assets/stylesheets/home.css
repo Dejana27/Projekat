@@ -1,0 +1,375 @@
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    background: #f7f7f7;
+}
+
+a {
+    color: #664d03;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9a6e3a;
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.section {
+    padding: 15rem 3rem;
+    border-top: 1px solid #ddd;
+    transition: transform 1s, opacity 1s;
+    background-image: url("../images/hairsalonbg.jpg");
+}
+
+.section--hidden {
+    opacity: 0;
+    transform: translateY(8rem);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px !important;
+    margin-top: 8px !important;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+#header {
+    background: #fff;
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 15px 0;
+    border-bottom: 1px solid #e6f2fb;
+    position: fixed;
+    width: 100%;
+}
+
+#header.header-scrolled {
+    box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+}
+
+#header .logo {
+    font-size: 28px;
+    margin: 0px 20px 0px 0px;
+    padding: 0;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+#header .logo a {
+    color: #9a6e3a;
+
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar > ul > li {
+    position: relative;
+    white-space: nowrap;
+    margin: 0 12px;
+}
+
+.navbar a, .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #664d03;
+    transition: 0.3s;
+}
+
+.navbar a i,
+.navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+}
+
+.navbar a:hover, .navbar .active {
+    color: #9a6e3a;
+}
+
+.navbar .getstarted {
+    background: #9a6e3a;
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.navbar .getstarted:hover {
+    background: #9a6e3a;
+    color: #fff;
+}
+
+.navbar .dropdown ul {
+    display: none;
+    position: absolute;
+    left: 14px;
+    top: calc(100% + 30px);
+    margin: 0;
+    padding: 10px 0;
+    z-index: 99;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.navbar .dropdown ul a {
+    padding: 10px 20px;
+}
+
+.navbar .dropdown:hover > ul {
+    display: block;
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+}
+
+.main_container {
+    padding-top: 100px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#citySelector {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+
+.input-group {
+    margin: 20px 0;
+}
+
+.input-group .form-control {
+    border-radius: 0;
+}
+
+.input-group .input-group-text {
+    background: #9a6e3a;
+    color: #fff;
+}
+
+#logout {
+    cursor: pointer;
+}
+
+/*.card {*/
+/*    margin: 20px 10px;*/
+/*    border: none;*/
+/*    border-radius: 8px;*/
+/*    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);*/
+/*    height: 100%;*/
+/*    display: flex;*/
+/*}*/
+
+/*.card h4 {*/
+/*    margin: 10px 0;*/
+/*    color: #9a6e3a;*/
+/*}*/
+
+/*.card img {*/
+/*    border-top-left-radius: 8px;*/
+/*    border-top-right-radius: 8px;*/
+/*}*/
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.card {
+    height: 100% !important;
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    border-right: 10px;
+    /*padding: 20px;*/
+
+}
+
+.card img {
+    flex-shrink: 0;
+}
+
+.card h4 {
+    flex-grow: 1;
+}
+
+b:hover {
+    color: #9a6e3a !important;
+    cursor: pointer;
+}
+
+.splide__slide {
+    padding: 20px;
+}
+
+.splide__slide__container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #9a6e3a;
+}
+
+.card-group {
+    margin: 20px 0;
+}
+
+footer {
+    padding: 20px;
+    background: #9a6e3a;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #e6e6e6;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+#search-button {
+    background-color: #9a6e3a;
+    border: #9a6e3a;
+
+}
+
+#newSalons-carousel {
+    height: 60%;
+    width: 100%;
+    padding: 60px;
+}
+
+.splide__slide__container {
+    height: 100%;
+    width: 100%;
+    /*padding: 20px;*/
+}
+
+#image-carousel {
+    padding: 60px;
+}
+
+.splide__slide {
+    padding: 40px;
+}
+
+#city:hover {
+    cursor: pointer;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+#logout:hover {
+    color: #9a6e3a;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+
+#search {
+    border-radius: 6px;
+}
+
+
+/* CSS */
+.button-2 {
+    background-color: transparent;
+    border-radius: 8px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}

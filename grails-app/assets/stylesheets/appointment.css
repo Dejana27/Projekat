@@ -1,0 +1,273 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+.salon {
+    margin-top: 100px !important;
+}
+.container-app {
+    margin-top: 100px !important;
+}
+
+h1 {
+
+    margin-left: 10px !important;
+    font-size: 34px !important;
+    margin-bottom: .3em !important;
+}
+small {
+    font-size: 20px;
+    color: #444444;
+}
+body {
+    padding: 20px;
+}
+#likeButton {
+
+    border-color: #9a6e3a;
+    border-style: groove;
+    border-radius: 10px;
+    padding: 8px 12px;
+    float: right !important;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+#likeButton:hover {
+
+    border-color: #9a6e3a;
+    border-style: groove;
+    border-radius: 10px;
+    padding: 8px 12px;
+    float: right !important;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: #eceaea;
+}
+.section-2 div {
+    display: block !important;
+}
+
+* {
+    box-sizing: border-box !important;
+}
+
+#tabs {
+    background: 0 0 !important;
+    font-weight: 500;
+}
+.nav-tabs.hscroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    min-height: 43px;
+}
+
+.nav-tabs {
+    font-size: 18px;
+    border: 0;
+    border-bottom: 2px solid #f0f4f6;
+    background: 0 0 !important;
+    margin-bottom: 10px !important;
+    text-transform: uppercase;
+    padding: 6px;
+}
+.vspace {
+    margin-top: 15px;
+    margin-bottom: 5px !important;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+#logout:hover {
+    cursor: pointer;
+}
+
+.workHours {
+    margin-left: 10px;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+#search {
+    border-radius: 8px;
+    width: 80%;
+    height: 5%;
+    border-color: #9a6e3a;
+}
+
+#searchButton {
+    color: #9a6e3a;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 16px;
+    margin-top: 10px;
+}
+
+.section-1 {
+    color: black;
+}
+
+.circleButton {
+    border-radius: 100px;
+    width: 30px;
+    border-color: #444444;
+
+}
+
+.pull-right {
+    margin-left: 300px;
+}
+
+.pull-right-price {
+    margin-left: 600px;
+}
+
+.bi-circle {
+    font-size: 30px;
+    color: #9a6e3a;
+    background-color: transparent;
+}
+
+.bi-circle:hover {
+    cursor: pointer;
+}
+
+.bi-check-circle-fill {
+    color: #9a6e3a;
+    font-size: 30px;
+}
+
+.bi-check-circle-fill:hover {
+    cursor: pointer;
+}
+
+p {
+    margin-left: 20px;
+    color: #444444;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.workingHours {
+    margin-left: 20px !important;
+}
+
+.card {
+    margin: 10px;
+}
+
+.pull-right-workhours {
+    margin-left: 10px;
+}
+#page-fixed-footer {
+    font-family: "Open Sans", sans-serif;
+    margin-left: 1200px;
+}
+
+@media screen and (min-width: 1200px) {
+    #page-fixed-footer {
+        margin-left: 780px;
+    }
+}
+
+#choose-time, #submit-cart {
+    background-color: #9a6e3a;
+    border-color: #9a6e3a;
+    color: white;
+
+}
+
+#submit-cart:hover, #choose-time:hover {
+    background-color: #6d5200;
+}
+
+.bi-heart-fill {
+    color: #9a6e3a;
+}
+
+@media screen and (max-width: 1440px) {
+    #calendar {
+        max-width: 100% !important;
+        margin: 10px;
+        height: calc(100% - 20px);
+    }
+
+    h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .fc-view-container {
+        height: 100%;
+    }
+}
+
+.pull-right {
+    margin-left: 1300px !important;
+
+}
+
+#choose-time {
+    /*margin-left: 210px;*/
+    margin: 20px;
+}
+
+#logout:hover {
+    cursor: pointer;
+}
+
+#showSalons {
+    margin: 290px;
+}
+
+.services {
+    margin: -8px;
+}
+
+.service-list {
+    margin: 16px;
+}
+p {
+    margin: 10px;
+}
+
+#container {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#serviceButton {
+    margin-right: 3200px;
+
+}
+.splide {
+    width: 100%;
+    height: 80%;
+}
+.splide__slide img {
+    width: 100%;
+    height: 80%;
+}
